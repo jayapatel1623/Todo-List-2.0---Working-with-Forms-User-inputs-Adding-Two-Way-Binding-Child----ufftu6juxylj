@@ -2,7 +2,7 @@ import React from "react";
 import ListRender from "./ListRender";
 
 const Today = (props) => {
-  const date = new Date("19/3/2023");
+  const date = new Date("3/19/2023");
   
   const today=props.list.filter((itm)=>{return (itm.date===date.toLocaleDateString("en-US"))});
   
