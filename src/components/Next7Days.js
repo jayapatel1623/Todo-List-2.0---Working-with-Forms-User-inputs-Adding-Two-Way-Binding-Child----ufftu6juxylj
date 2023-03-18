@@ -2,7 +2,7 @@ import React from "react";
 import ListRender from "./ListRender";
 
 const Next7Days = (props) => {
-  const date = new Date("10/5/20232");
+  const date = new Date("10/5/2022");
   console.log(date)
   const nseven=props.list.filter((itm)=>{
     const d=new Date(itm.date);
