@@ -1,5 +1,3 @@
- (19 sloc)  558 Bytes
-
 import React from "react";
 import ListRender from "./ListRender";
 
